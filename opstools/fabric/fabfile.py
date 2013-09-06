@@ -3,10 +3,10 @@ from fabric.api import *
 import os
 
 env.username = 'root'
-env.password = 'aaasss'
+env.password = ''
 
 #myhosts =  ['172.23.176.123',]
-myhosts =  ['192.168.1.104',]
+myhosts =  ['10.1.0.104',]
 
 CODE_REPO_PATH = '/var/www/html/deploy'
 CODE_PACKAGE = os.path.join(CODE_REPO_PATH,'package')
