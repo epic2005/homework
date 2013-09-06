@@ -5,7 +5,6 @@ import os
 env.username = 'root'
 env.password = ''
 
-#myhosts =  ['172.23.176.123',]
 myhosts =  ['10.1.0.104',]
 
 CODE_REPO_PATH = '/var/www/html/deploy'
